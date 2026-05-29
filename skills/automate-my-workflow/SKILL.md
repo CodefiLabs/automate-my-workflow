@@ -207,4 +207,4 @@ If `canPersist`, save this summary to `~/Projects/_automate-my-workflow/audits/<
 ## References
 
 - `references/blog-excerpts.md` — full source framework + judgment rules. Load when ranking tasks or making triage calls.
-- Source blog: "Before You Buy Another AI Tool, Map the Work That Actually Runs Your Business" (Codefi, May 2026).
+- Source article: "Map First, Automate Second: The AI Fit Check" (Codefi) — https://codefiworks.com/ai-insights/map-first-automate-second-ai-fit-check

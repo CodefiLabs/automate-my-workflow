@@ -1,6 +1,6 @@
 # automate-my-workflow
 
-A guided skill for [Claude Code](https://claude.ai/code) that runs a small-business owner or team lead through Codefi's **5-Step Workflow-to-AI Fit Check** — gate by gate — then hands qualified tasks to `skill-creator` or schedules a measurement loop. You end the session with installable skills or running measurement tasks, not a notebook full of ideas.
+A guided skill for [Claude Code](https://claude.ai/code) that runs a small-business owner or team lead through Codefi's [**5-Step Workflow-to-AI Fit Check**](https://codefiworks.com/ai-insights/map-first-automate-second-ai-fit-check) — gate by gate — then hands qualified tasks to `skill-creator` or schedules a measurement loop. You end the session with installable skills or running measurement tasks, not a notebook full of ideas.
 
 ## Install (Claude desktop app — free, no terminal)
 
@@ -18,25 +18,26 @@ Download and install the free Claude desktop app, then open it and **sign in**:
 1. In the app, open the **Cowork** tab.
 2. Go to the **Customize** page. In the left sidebar you'll see **Skills**, **Connectors**, and a **Personal plugins** section.
 
-### 3. Add the CodefiLabs marketplace (one time)
+### 3. Add the plugin (two ways — pick one)
 
-1. Next to **Personal plugins**, click the **+** button.
-2. Choose **Create plugin → Add marketplace**.
-3. Enter the marketplace and confirm:
+**Easiest — download and upload the file:**
+
+1. [**Download `automate-my-workflow.zip`**](https://github.com/CodefiLabs/automate-my-workflow/releases/latest/download/automate-my-workflow.zip) (downloads instantly when you click it).
+2. Next to **Personal plugins**, click the **+** button → **Create plugin** → **Upload plugin**, and choose the `automate-my-workflow.zip` file you just downloaded.
+
+**Or — add the CodefiLabs marketplace** (this also gets you future updates and other CodefiLabs plugins):
+
+1. Next to **Personal plugins**, click the **+** button → **Create plugin** → **Add marketplace**, then enter and confirm:
 
    ```
    codefilabs/marketplace
    ```
 
-You only ever do this once.
+2. Click the **+** again → **Browse plugins**, find **automate-my-workflow** in the list, and click to install it.
 
-### 4. Install the plugin
+Either way, the skill is now active.
 
-Click the **+** again → **Browse plugins**, find **automate-my-workflow** in the list, and click to install it. That's it — the skill is now active.
-
-> **Shortcut:** if you already have the `automate-my-workflow.skill` file, you can skip the marketplace and choose **+ → Create plugin → Upload plugin** instead, then pick the file.
-
-### 5. Use it
+### 4. Use it
 
 Just talk to Claude in plain English — for example:
 
@@ -79,7 +80,7 @@ The skill detects what your runtime can do (file write, scheduled-tasks MCP, mem
 
 ## Source framework
 
-Based on the Codefi blog "Before You Buy Another AI Tool, Map the Work That Actually Runs Your Business" (May 2026). The full framework and judgment rules ship in `skills/automate-my-workflow/references/blog-excerpts.md`.
+Based on the Codefi article [**Map First, Automate Second: The AI Fit Check**](https://codefiworks.com/ai-insights/map-first-automate-second-ai-fit-check). The full framework and judgment rules ship in `skills/automate-my-workflow/references/blog-excerpts.md`.
 
 ## License
 
