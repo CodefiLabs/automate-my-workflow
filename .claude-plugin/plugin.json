@@ -1,0 +1,10 @@
+{
+  "name": "automate-my-workflow",
+  "version": "0.1.0",
+  "description": "Walk a small-business owner or team lead through Codefi's 5-Step Workflow-to-AI Fit Check, gate by gate, and hand qualified tasks to skill-creator or a measurement loop — ending with installable skills, not a list of ideas.",
+  "author": { "name": "Kevin Kirchner" },
+  "homepage": "https://github.com/codefilabs/automate-my-workflow",
+  "repository": "https://github.com/codefilabs/automate-my-workflow",
+  "license": "MIT",
+  "keywords": ["automation", "workflow", "ai-fit-check", "skill-creator", "audit", "small-business", "triage"]
+}
